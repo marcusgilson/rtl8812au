@@ -8,16 +8,14 @@ After full upgrade you will have kernel 4.19.97-v7l+ (as of 3/16/2020).
 ```
 
 apt update
-apt full-upgrade
-apt install dkms        this installs raspberry-kernel-headers
+apt full-upgrade         this upgrades kernel and all other packages
+apt install dkms         this installs raspberry-kernel-headers
 
 cd /root
-
 git clone -b v5.6.4.2 https://github.com/marcusgilson/rtl8812au.git
-
 cd rtl8812au
 
-to install
+#to install
 
 ./dkms-install.sh
 

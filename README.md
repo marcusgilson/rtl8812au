@@ -1,5 +1,6 @@
 ### Commands to enable Netgear A7000 on Raspian from kernel 4.19.57-v7l+ to 4.19.97-v7l+
 
+With a Raspian build that has kernel 4.19.57-v7l+ you need to upgrade first and then install Realtek drivers
 ```
 
 apt update

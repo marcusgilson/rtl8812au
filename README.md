@@ -1,3 +1,25 @@
+## Commands to enable Netgear A7000 on Raspian from kernel 4.19.57-v7l+ to 4.19.97-v7l+
+
+`
+
+apt update
+apt full-upgrade
+apt install dkms        this installs raspberry-kernel-headers
+
+cd /root
+
+git clone -b v5.6.4.2 https://github.com/marcusgilson/rtl8812au.git
+
+cd rtl8812au
+
+to install
+
+./dkms-install.sh
+
+To remove
+sudo ./dkms-remove.sh
+`
+
 ## RTL8812AU/21AU and RTL8814AU drivers
 Only for use with Linux & Android
 

@@ -1,6 +1,6 @@
-## Commands to enable Netgear A7000 on Raspian from kernel 4.19.57-v7l+ to 4.19.97-v7l+
+# Commands to enable Netgear A7000 on Raspian from kernel 4.19.57-v7l+ to 4.19.97-v7l+
 
-`
+```
 
 apt update
 apt full-upgrade
@@ -18,7 +18,7 @@ to install
 
 To remove
 sudo ./dkms-remove.sh
-`
+```
 
 ## RTL8812AU/21AU and RTL8814AU drivers
 Only for use with Linux & Android

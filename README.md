@@ -15,12 +15,13 @@ cd /root
 git clone -b v5.6.4.2 https://github.com/marcusgilson/rtl8812au.git
 cd rtl8812au
 
-#to install
+#To install
 
 ./dkms-install.sh
 
-To remove
+#To remove
 ./dkms-remove.sh
+
 ```
 
 ## RTL8812AU/21AU and RTL8814AU drivers

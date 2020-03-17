@@ -17,7 +17,7 @@ to install
 ./dkms-install.sh
 
 To remove
-sudo ./dkms-remove.sh
+./dkms-remove.sh
 ```
 
 ## RTL8812AU/21AU and RTL8814AU drivers
